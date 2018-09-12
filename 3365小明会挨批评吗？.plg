@@ -1,0 +1,25 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 3365小明会挨批评吗？ - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\hs\AppData\Local\Temp\RSP6F23.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/3365小明会挨批评吗？.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\代码\3365小明会挨批评吗？.c"
+]
+Creating command line "cl.exe @C:\Users\hs\AppData\Local\Temp\RSP6F23.tmp" 
+<h3>Output Window</h3>
+Compiling...
+3365小明会挨批评吗？.c
+
+
+
+<h3>Results</h3>
+3365小明会挨批评吗？.obj - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

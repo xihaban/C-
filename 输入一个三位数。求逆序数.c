@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<math.h>
+main()
+{	
+	int x,a,b,c,d;
+	printf("请输入一个三位数:");
+	scanf("%d",&x);
+    x=fabs(x);
+	   if(x>=999)
+	   {
+		  	printf("您输入有误,请重新输入！！\n");
+	   }
+	   else{
+	a=x/100;
+	b=x%100/10;
+	c=x%10;
+	d=c*100+b*10+a;
+	printf("%d\n",d);
+	   }
+}

@@ -1,0 +1,19 @@
+#include<stdio.h>
+main()
+{
+	int n,m,i,j,a[100],b[100],sum=0;
+	scanf("%d",&n);
+	for(i=0;i<n;i++)
+	{
+		scanf("%d",&m);
+		for(j=0;j<m;j++)
+		{
+			scanf("%d",&a[j]);
+			sum+=a[j];
+		}
+		b[i]=sum;
+		sum=0;
+	}
+	for(i=0;i<n;i++)
+	printf("%d\n",b[i]);
+}

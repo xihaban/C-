@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 1125求1!+2!+......n!的和 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\hs\AppData\Local\Temp\RSP43EC.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/1125求1!+2!+......n!的和.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\代码\1125求1!+2!+......n!的和.c"
+]
+Creating command line "cl.exe @C:\Users\hs\AppData\Local\Temp\RSP43EC.tmp" 
+<h3>Output Window</h3>
+Compiling...
+1125求1!+2!+......n!的和.c
+E:\代码\1125求1!+2!+......n!的和.c(14) : error C2043: illegal break
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+1125求1!+2!+......n!的和.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

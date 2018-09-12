@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 9.5删除指定字符 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\hs\AppData\Local\Temp\RSP2C30.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/9.5删除指定字符.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\代码\9.5删除指定字符.c"
+]
+Creating command line "cl.exe @C:\Users\hs\AppData\Local\Temp\RSP2C30.tmp" 
+<h3>Output Window</h3>
+Compiling...
+9.5删除指定字符.c
+E:\代码\9.5删除指定字符.c(2) : error C2059: syntax error : 'type'
+E:\代码\9.5删除指定字符.c(10) : error C2109: subscript requires array or pointer type
+E:\代码\9.5删除指定字符.c(12) : error C2109: subscript requires array or pointer type
+E:\代码\9.5删除指定字符.c(24) : warning C4047: 'function' : 'char ' differs in levels of indirection from 'char [80]'
+E:\代码\9.5删除指定字符.c(24) : warning C4024: 'fun' : different types for formal and actual parameter 1
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+9.5删除指定字符.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

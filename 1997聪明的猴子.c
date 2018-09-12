@@ -1,0 +1,23 @@
+#include<stdio.h>
+main()
+{
+	int n,m,i,j,t,k,a[100];
+	freopen("in.txt","r",stdin);
+	scanf("%d",&n);
+	do{
+		scanf("%d",&m);
+		for(i=0;i<m;i++)
+			scanf("%d",&a[i]);
+		for(j=0;j<m;j++)	
+		{
+			for(k=j;k<m;k++)
+				if(a[j]<a[k])
+				{
+					t=a[j];
+					a[j]=a[k];
+					a[k]=t;}
+		}	
+		printf("%d\n",a[0]+a[1]);
+		n--;
+	}while(n>0);
+}

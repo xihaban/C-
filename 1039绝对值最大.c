@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<math.h>
+main()
+{
+	int a[3],max,i,x;
+	scanf("%d%d%d",&a[0],&a[1],&a[2]);
+	max=abs(a[0]);
+	i=0;
+	while(i<3)
+	{
+		if(max<abs(a[i]))
+		{
+			max=abs(a[i]);
+			x=a[i];
+		}
+		i++;
+	}
+		printf("%d\n",x);
+}
